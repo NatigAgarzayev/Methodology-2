@@ -1,0 +1,25 @@
+{
+  "name": "methodology-2",
+  "version": "1.0.0",
+  "description": "**Instructions:**\r - Use the exact same prompt for all three tools (ChatGPT, Claude, DeepSeek)\r - Save each output as a single `.js` file\r - File naming: `scenario{N}_{tool}.js` (e.g., `scenario1_deepseek.js`)\r - Start a new chat for each prompt (no conversation history)",
+  "main": "scenario10_chatgpt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "crypto": "^1.0.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.1",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.4",
+    "pg": "^8.20.0"
+  }
+}
